@@ -9,7 +9,7 @@ export default function Navbar() {
                 <Logo/>
                 <div className="w-1/2 flex items-center justify-end mr-10">
                     <Nav/>
-                    <Button className={'px-5 py-[10px] ml-10 flex items-center'}>Download <img src="arrow-forward.png" className="inline-block ml-[15px]" alt="arroforward" /></Button>
+                    <Button className={'px-5 py-[10px] ml-10 flex items-center rounded-md'}>Download <img src="arrow-forward.png" className="inline-block ml-[15px]" alt="arroforward" /></Button>
                 </div>
             </div>
         </div>

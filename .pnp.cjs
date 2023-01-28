@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.21"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:18.2.0"],\
+            ["react-stacked-carousel", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:1.1.4"],\
             ["tailwindcss", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:3.2.4"],\
             ["vite", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:4.0.4"]\
           ],\
@@ -2358,6 +2359,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-stacked-carousel", [\
+        ["npm:1.1.4", {\
+          "packageLocation": "./.yarn/cache/react-stacked-carousel-npm-1.1.4-77bd65ffb2-57735e2d7d.zip/node_modules/react-stacked-carousel/",\
+          "packageDependencies": [\
+            ["react-stacked-carousel", "npm:1.1.4"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:1.1.4", {\
+          "packageLocation": "./.yarn/__virtual__/react-stacked-carousel-virtual-690c20d990/0/cache/react-stacked-carousel-npm-1.1.4-77bd65ffb2-57735e2d7d.zip/node_modules/react-stacked-carousel/",\
+          "packageDependencies": [\
+            ["react-stacked-carousel", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:1.1.4"],\
+            ["@types/react", "npm:18.0.27"],\
+            ["react", "npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["reactailw", [\
         ["workspace:.", {\
           "packageLocation": "./",\
@@ -2370,6 +2393,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:8.4.21"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:18.2.0"],\
+            ["react-stacked-carousel", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:1.1.4"],\
             ["tailwindcss", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:3.2.4"],\
             ["vite", "virtual:45fb4221d5c24a6f097fe966062b671cb4d10b856bb548ae0604ac728a3e9aa6953050a1e9c41f8bc13a9ae925de3110256af7bed674fe707a0cbbbf566b677c#npm:4.0.4"]\
           ],\

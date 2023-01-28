@@ -1969,6 +1969,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-stacked-carousel@npm:^1.1.4":
+  version: 1.1.4
+  resolution: "react-stacked-carousel@npm:1.1.4"
+  peerDependencies:
+    react: ^16.0.0
+  checksum: 57735e2d7db857886a4581a51c5fd258cfed78198db439697ad0a82a22ebfa7983b4dd0e970b32bd58c94f740e5b0e84abc914b25f1152231f8ff2cb06261f9e
+  languageName: node
+  linkType: hard
+
 "react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
@@ -1989,6 +1998,7 @@ __metadata:
     postcss: ^8.4.21
     react: ^18.2.0
     react-dom: ^18.2.0
+    react-stacked-carousel: ^1.1.4
     tailwindcss: ^3.2.4
     vite: ^4.0.0
   languageName: unknown
