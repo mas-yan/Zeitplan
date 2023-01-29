@@ -9,12 +9,12 @@ export default function Navbar({stickyClass,myRef}) {
     
 
     return (
-        <nav ref={myRef} className={`top-0 container md:left-auto md:px-0 ${stickyClass}`} style={{'zIndex': 9999}}>
+        <nav ref={myRef} className={`top-0 container lg:left-auto md:px-0 ${stickyClass}`} style={{'zIndex': 9999}}>
             <div className="relative">
-                <div className="md:flex md:items-center md:justify-between py-3 md:py-5 bg-white rounded-md shadow-lg px-10">
+                <div className="lg:flex lg:items-center lg:justify-between py-3 lg:py-5 bg-white rounded-lg shadow-lg px-10">
                     <div className="flex justify-between">
                         <Logo/>
-                        <div className="md:hidden">
+                        <div className="lg:hidden">
                             <button
                                 className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                                 onClick={() => setNavbar(!navbar)}
@@ -51,11 +51,11 @@ export default function Navbar({stickyClass,myRef}) {
                             </button>
                         </div>
                     </div>
-                    <div className={`md:w-1/2 md:flex justify-end mr-10 md:mt-0 mt-8 ${
+                    <div className={`lg:w-1/2 lg:flex justify-end mr-10 lg:mt-0 mt-8 ${
                                 navbar ? "block" : "hidden"
                             }`}>
                         <Nav/>
-                        <Button className={'px-5 py-[5px] md:py-[10px] w-fit md:mt-0 mt-6 md:ml-10 flex items-center rounded-md'}>Download <img src="arrow-forward.png" className="inline-block md:ml-[15px]" alt="arroforward" /></Button>
+                        <Button className={'px-5 py-[5px] lg:py-[10px] w-fit lg:mt-0 mt-6 lg:ml-10 flex items-center rounded-md'}>Download <img src="arrow-forward.png" className="inline-block md:ml-[15px]" alt="arroforward" /></Button>
                     </div>
                 </div>
             </div>

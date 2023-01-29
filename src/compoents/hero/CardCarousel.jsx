@@ -7,11 +7,11 @@ export default function CarrdCarousel() {
         <div className="relative md:ml-0">
                 <StackedCarousel
                   autoRotate={false}
-                  containerClassName={"container mx-8 md:mx-0"}
+                  containerClassName={"container mx-8 md:ml-[8rem] lg:mx-0"}
                   cardClassName="mt-10"
-                  leftButton={<Button className={'absolute top-[63px] md:top-[215px] left-[210px] md:left-[350px] bg-opacity-[20%] px-2.5 rounded-full'} textCol={'text-primary-500/100 text-2xl'}>{"<"}</Button>}
+                  leftButton={<Button className={'absolute top-[63px] md:top-[215px] md:top-[205px] left-[210px] md:left-[470px] lg:left-[350px] bg-opacity-[20%] px-2.5 rounded-full'} textCol={'text-primary-500/100 text-2xl'}>{"<"}</Button>}
                   rightButton={
-                  <Button className={'absolute top-[63px] md:top-[215px] left-[260px] md:left-[400px] bg-opacity-[20%] px-2.5 rounded-full'} textCol={'text-primary-500/100 text-2xl'}>
+                  <Button className={'absolute top-[63px] md:top-[215px] left-[260px] md:top-[205px] md:left-[520px] lg:left-[400px] bg-opacity-[20%] px-2.5 rounded-full'} textCol={'text-primary-500/100 text-2xl'}>
                     {">"}
                   </Button>
                 }
