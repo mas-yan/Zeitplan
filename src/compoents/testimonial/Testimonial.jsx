@@ -3,7 +3,10 @@ import CardReview from "../CardReview";
 export default function Testimonial() {
   return (
     <>
-      <div className="pt-8 md:pt-24 pb-20 bg-primary-500 bg-opacity-10">
+      <div
+        id="testi"
+        className="pt-8 md:pt-24 pb-20 bg-primary-500 bg-opacity-10"
+      >
         <div className="container mx-auto px-4 md:px-0">
           <div className="text-center">
             <div className="justify-center flex">

@@ -81,7 +81,7 @@ export default function Pricing() {
     setFeature3(data3);
   }, []);
   return (
-    <div className="pt-8 md:pt-24 pb-20 bg-cream-300 mt-24">
+    <div id="harga" className="pt-8 md:pt-24 pb-20 bg-cream-300 mt-24">
       <div className="container mx-auto px-4 md:px-0">
         <div className="text-center">
           <div className="justify-center flex">
