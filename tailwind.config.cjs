@@ -9,7 +9,9 @@ module.exports = {
       fontFamily: {
         'poppins': ['Poppins','ui-sans-serif', 'system-ui'],
         'sans': ['Source Sans Pro', 'system-ui'],
-        'patua': ['Patua One', 'system-ui']
+        'inter': ['Inter', 'system-ui'],
+        'patua': ['Patua One', 'system-ui'],
+        'ibm': ['IBM Plex Mono', 'system-ui']
       },
       "colors": {
         "cream": {
