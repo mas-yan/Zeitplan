@@ -1,9 +1,10 @@
+import { useEffect, useState } from 'react'
 import { StackedCarousel } from 'react-stacked-carousel'
 import Button from '../Button'
 import CardReview from '../CardReview'
+import 'react-stacked-carousel/dist/index.css';
 
-export default function CarrdCarousel() {
-    return (
+export default function CarrdCarousel() {return (
         <div className="relative md:ml-0">
                 <StackedCarousel
                   autoRotate={false}
@@ -16,14 +17,17 @@ export default function CarrdCarousel() {
                   </Button>
                 }
                 >
-                  <div key={'child1'}>
+                  <div key={'1'}>
                     <CardReview comment='“Aplikasi sialan, ini gw jadi kagak bisa alesan lagi buat bolos kelas Pak Sanusi yang galak itu! Tapi aku sekarang jadi rajin kuliah, terima kasih garena!”' image='cust.png' name='P-Star 7' scholl='Mahasiswa Boating School Ny. Puff' />
                   </div>
-                  <div key={'child2'}>
-                    <CardReview comment='“Aplikasi sialan, ini gw jadi kagak bisa alesan lagi buat bolos kelas Pak Sanusi yang galak itu! Tapi aku sekarang jadi rajin kuliah, terima kasih garena!”' image='cust.png' name='P-Star 7' scholl='Mahasiswa Boating School Ny. Puff' />
+                  <div key={'2'}>
+                    <CardReview comment='“Artinya apa bang Messi?”' image='cust.png' name='kiper terbaik' scholl='Mahasiswa tendangan si Madun' />
                   </div>
-                  <div key={'child3'}>
-                    <CardReview comment='“Aplikasi sialan, ini gw jadi kagak bisa alesan lagi buat bolos kelas Pak Sanusi yang galak itu! Tapi aku sekarang jadi rajin kuliah, terima kasih garena!”' image='cust.png' name='P-Star 7' scholl='Mahasiswa Boating School Ny. Puff' />
+                  <div key={'3'}>
+                    <CardReview comment='“Yang mau joki skripsi bisa hubungi nomor berikut yaa 0819872368xxx!”' image='cust.png' name='Kang Joki' scholl='Mahasiswa Konoha' />
+                  </div>
+                  <div key={'4'}>
+                    <CardReview comment='“Gebetanku kemana ya kok lama bales chatnya, yang melihat tolong kasih tahu dong suruh jawab gitu!”' image='cust.png' name='Si Galau' scholl='Mahasiswa meng-sad' />
                   </div>
                 </StackedCarousel>
             </div>
